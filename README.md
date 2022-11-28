@@ -1,7 +1,7 @@
-### Projet 3
+### <img src="https://raw.githubusercontent.com/MalekGuez/assets/master/openclassrooms/logo.png" width="35" align="center"/> &nbsp;Projet 3
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/MalekGuez/assets/master/openclassrooms/logo.png" width="75"/>
+  <img src="https://raw.githubusercontent.com/MalekGuez/assets/master/openclassrooms/p3/ohmyfood.png" width="35%" align="center"/>
   <p><i>Dynamisez une page web avec des animations CSS</i></p>
 </div>
 
