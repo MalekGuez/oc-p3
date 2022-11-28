@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/MalekGuez/assets/master/openclassrooms/p3/ohmyfood.png" width="35%" align="center"/>
-  <h2><i>Dynamisez une page web avec des animations CSS</i></h2>
+  <h2><i><samp>Dynamisez une page web avec des animations CSS</samp></i></h2>
 </div>
 
 <b>Ohmyfood!</b>, site mobile qui répertorie les menus de restaurants gastronomiques. Permet aux clients de composer le menu de leur repas pour que leurs plats soient prêts à leur arrivée.
