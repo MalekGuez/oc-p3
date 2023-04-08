@@ -32,7 +32,7 @@ a {
     width: 100%;
     height: 100%;
 
-    background: linear-gradient(330.64deg, $primary, $secondary);;
+    background: linear-gradient(330.64deg, $primary, $secondary);
 
     animation: fade 1s ease 1s forwards;
     
@@ -41,6 +41,8 @@ a {
         width: 70px;
         text-align: center;
 
+
+        // animations des mini cercles
         div {
             width: 18px;
             height: 18px;
@@ -468,6 +470,8 @@ a {
             flex-direction: column;
         }
 
+        // ANIMATION DE l'AFFICHAGE DES PLATS
+
         &--item {
             display: flex;
             align-items: center;
@@ -476,9 +480,13 @@ a {
             background: #FFFFFF;
             box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
             border-radius: 15px;
+
             height: 68px;
+
             padding: 12px 11px;
+
             margin-top: 14px;
+            
             transition: .5s ease all;
 
             animation: fadeInFromBottom 1s ease-in-out;
@@ -542,13 +550,17 @@ a {
                 align-self: flex-end;
                 margin-right: 17px;
             }
+
             &--validation {
                 transition: .5s ease all;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+
                 width: 60px;
+
                 margin-right: calc(-60px - 12px);
+
                 height: calc(100% + 28px);
 
                 background: $tertiary;
@@ -593,16 +605,24 @@ a {
     }
 }
 
+// ANIMATION DU COEUR ---------------------------------------
+
 .heart-icon {
     position: relative;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     width: 25px;
     height: 25px;
-    margin-right: 15px;
-    i { position: absolute }
+
     transition: .5s ease all;
+
+    margin-right: 15px;
+
+    i { position: absolute }
+
     &:hover {
         .heart {
             opacity: 1;
@@ -650,6 +670,7 @@ a {
         margin-bottom: 5px;
         font-weight: 300;
         font-size: 14px;
+        color: white;
     }
     &--logo { 
         filter: brightness(0) invert(1);
